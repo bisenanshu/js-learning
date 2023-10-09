@@ -1,7 +1,34 @@
-let arr = [1,2,3,4,5,6,7,8,99];
+//***************************************
+// score1 = 100;
+// score2 = 200;
+// score3 = 300;
+// score4 = 400;
+// console.log(Array.of(score1 , score2 ,score3 , score4))
+
+// console.log(Array.from("Anshu"));
+// console.log(Array.isArray("Anshu"));
+
+//**************************************
+
+// let Arr = [1 ,2,3,[21,2,4,[11,7,9],6],4,5,6]
+// let newArr = Arr.flat(Infinity)
+// console.log(newArr);
+
+//**************************************** */
+
+// let hindi_heros = ["ram" , "Krishna","shiva"];
+// let hindi_heroins = ["Shita" , "gita" ,"rita"];
+// let newArr = [...hindi_heros , ...hindi_heroins];
+// console.log(newArr);
+
+//***************************************** */
+
+// let arr = [1,2,3,4,5,6,7,8,99];
 
 // console.log(arr.includes(99));
 // console.log(arr.indexOf(99))
+
+//************************************* */
 
 // let newArr = arr.slice(3);
 // console.log(newArr);
