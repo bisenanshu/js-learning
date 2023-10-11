@@ -1,5 +1,6 @@
 //singleton object
 
+
 const obj = new Object();
 // console.log(obj);
 
@@ -86,9 +87,47 @@ const objt33 = {...objt1 , ...objt2}
 
 //Array of Object 
 
+const OBJ = [
+    {
+        Id : 1,
+        Gmail : "bisenanshu@gmail.com"
+    },
+    {
+        Id1 : 2,
+        Gmail1 : "Bisenanshu11@gmailo.com"
+    },
+    {
+        Id2 : 3 ,
+        Gmail2 : "bisenanshu32@gmail.com"
+    },
+    {
+        id3 : 4 ,
+        Gmail3 : "bisenashu44@gmail.com"
+    }
+]
+//console.log(OBJ[0].Gmail)
+
+// console.log(OBJ[0]);
+// console.log(OBJ[0].Gmail);
 
 
 
+//************************************** */
 
 
 
+const tinderUser = {}
+tinderUser.id = 1;
+tinderUser.name = "Anshu";
+tinderUser.gmail = "bisenanshu@gmail.com"
+tinderUser.age = 21 
+
+
+//console.log(tinderUser.hasOwnProperty('age'));
+
+
+//****Object. keys() Object.values() *****
+
+// conseolse.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
