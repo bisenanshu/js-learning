@@ -43,4 +43,30 @@ function addAllLine(){
     console.log("this is third");
     console.log("this is forth");
 } 
-console.log(addAllLine());
+//console.log(addAllLine());
+
+
+
+function info(){}
+info();
+//console.log(typeof info);
+
+// function intro(){
+//     console.log("hey i am Anshu");
+// }
+// intro();
+// console.log(intro());
+
+// function intro(users){
+//     console.log("hey js user" , users);
+// }
+// intro("Anshu");
+
+// function intro(num1 , num2)
+// {
+//     let num3 = num1 + num2;
+//     return num3 ;
+// }
+// console.log(intro(2 , null))
+
+
