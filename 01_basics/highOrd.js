@@ -24,6 +24,8 @@
 
 //===========(for in loop)=============
 
+//map() is not iterable for in loop s not work
+
 const information = {
     name : "anshu",
     dep  : "IT",
@@ -76,6 +78,59 @@ let greeting1 = "Good Night";
 for(let greet1 of greeting1){
    // console.log(greet1);
 }
+
+//###########################################
+  //  ONLY UNIQ VALUES
+
+let map = new Map();
+map.set("IN" , "India");
+map.set("USA" , "United States of America");
+map.set("FR" , "France");
+map.set("IN" , "India");
+//console.log(map);
+
+for(let [key,val] of map){
+  //console.log(key , "=>" , val);
+}
+
+
+//#########################################
+
+// ======(forEach loop)=====
+
+
+let coding = ["cpp" , "py" , "rd" , "java"]
+coding.forEach(function(lang){
+  //console.log(`This is coding language => ${lang}`)
+});
+
+let numbers = [2,4,6,7,8,11];
+numbers.forEach((val)=>{
+  //console.log(val ,"=>" , val + 2)
+})
+
+informativeData = [
+  {
+  language : "java",
+  languageFile : "java"
+},
+{
+  language: "python",
+  languageFile : "py"
+},
+{
+  language : "ruby",
+  languageFile : "rb"
+}
+]
+
+informativeData.forEach((item)=>{
+//console.log(item.language);
+//console.log(item)
+})
+
+
+
 
 
 
