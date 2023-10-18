@@ -130,6 +130,11 @@ informativeData.forEach((item)=>{
 })
 
 
+let myNum = [12,22,33,44,55,66];
+myNum.forEach((val , index ,arr) => {
+  //console.log(val , index , arr);
+});
+
 
 
 
