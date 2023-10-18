@@ -11,16 +11,18 @@ let scoreFilter = score.filter((marks)=>{
 })
 // console.log(scoreFilter);
 // console.log(scoreFilter.length)
+//   
+
 
 const booksDetails = [
 {
- title : 'Book1' ,
+   title : 'Book1' ,
  genre : 'fiction' ,
  publish : 1981 ,
  edition : 2004
 } ,
 {
-title : 'Book2' ,
+    title : 'Book2' ,
 genre : 'Non-fiction' ,
 publish : 1981 ,
 edition : 2004
@@ -43,7 +45,8 @@ edition : 2004
  publish : 1992 ,
  edition : 2008
 },
-{title : 'Book6' ,
+{  
+     title : 'Book6' ,
 genre : 'fiction' ,
 publish : 1999 ,
 edition : 2007},
@@ -69,6 +72,6 @@ edition : 2007},
      title : 'Book10' ,
  genre : 'Non-fiction' ,
  publish : 1981,
- edition : 2089
+ edition : 1989
 }]
 
