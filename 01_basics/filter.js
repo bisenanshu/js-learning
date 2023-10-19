@@ -75,3 +75,59 @@ edition : 2007},
  edition : 1989
 }]
 
+let booksinfo  = booksDetails.filter((bks)=>{
+     return bks.genre === "fiction"
+})
+//console.log(booksinfo);
+
+const studentsInfo = [
+     {
+          Name : "Anshu Bisen",
+          Batch : 2023,
+          Brance : "IT"
+     },
+     {
+          Name : "Adi Sharma",
+          Batch : 2024,
+          Brance : "CSE"
+     },
+     {
+          Name : "Pardh Patel",
+          Batch : 2022,
+          Brance : "IT"
+     },
+     {  Name : "Shree Bisen",
+        Batch : 2023,
+        Brance : "ME"
+     },
+     {
+          Name : "krish Varma",
+          Batch : 2020,
+          Brance : "CSE"
+     },
+     {
+          Name : "Radhe Patle" ,
+          Batch : 2019,
+          Brance : "IT"
+     },
+     {
+          Name : "Shiva Rathi",
+          Batch : 2024,
+          Brance : "ME"
+     }
+
+]
+
+let filterData = studentsInfo.filter((stuData)=>
+{
+     return stuData.Batch >=2022
+})
+console.log(filterData);
+filterData = studentsInfo.filter((stuData)=>{
+     return stuData.Name === "Anshu Bisen"
+});
+console.log(filterData);
+
+
+
+
